@@ -35,6 +35,6 @@ Each algorithm will be explained with:
 
 Theoretical notes and examples are organized in separate files for each algorithm:
 
-- [Linear Regression](./Linear%20Regression.md) – Introduction, theory, examples, and visualizations.
+- [Linear Regression](./LinearRegression) – Introduction, theory, examples, and visualizations.
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
