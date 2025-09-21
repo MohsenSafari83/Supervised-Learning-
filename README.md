@@ -20,7 +20,7 @@ The idea is to make learning **both theoretical and practical**, so you can conn
 - 🔹 Logistic Regression  
 - 🔹 Support Vector Machines (SVM)  
 - 🔹 Ensemble Learning
-- 📏 Evaluation metrics: Accuracy, Precision, Recall, F1, ROC, AUC  
+- 🔹 Evaluation metrics: Accuracy, Precision, Recall, F1, ROC, AUC  
 
 ---
 
