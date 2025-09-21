@@ -18,7 +18,8 @@ The idea is to make learning **both theoretical and practical**, so you can conn
 - 🔹Introduction to supervised learning
 - 🔹 Linear Regression
 - 🔹 Logistic Regression  
-- 🔹 Support Vector Machines (SVM)  
+- 🔹 Support Vector Machines 9(SVM)
+- 🔹 K-Nearest Neighbors (KNN)
 - 🔹 Ensemble Learning
 - 🔹 Evaluation metrics: Accuracy, Precision, Recall, F1, ROC, AUC  
 
@@ -36,8 +37,10 @@ Each algorithm will be explained with:
 Theoretical notes and examples are organized in separate files for each algorithm:
 
 - 🔹[Linear Regression](./Linear%20Regression)  
-- 🔹 [Logistic Regression](./Logistic%20Regression)  
+- 🔹 [Logistic Regression](./Logistic%20Regression)
+- 🔹[K-Nearest Neighbors (KNN)](./KNN)   
 - 🔹 [Support Vector Machines (SVM)](./SVM)  
-- 🔹 [Ensemble Learning](./Ensemble%20Learning)  
+- 🔹 [Ensemble Learning](./Ensemble%20Learning)
+  
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
