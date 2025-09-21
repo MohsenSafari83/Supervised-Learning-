@@ -35,6 +35,9 @@ Each algorithm will be explained with:
 
 Theoretical notes and examples are organized in separate files for each algorithm:
 
-- [Linear Regression](./Linear%20Regression) – Introduction, theory, examples, and visualizations.
+- 📈 [Linear Regression](./Linear%20Regression)  
+- 🔹 [Logistic Regression](./Logistic%20Regression)  
+- ✨ [Support Vector Machines (SVM)](./SVM)  
+- 🤝 [Ensemble Learning](./Ensemble%20Learning)  
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
