@@ -7,7 +7,7 @@ The idea is to make learning **both theoretical and practical**, so you can conn
 ---
 
 ## 🎯 Objectives
-- ✏️ Explain the theory of key classification algorithms in **plain, simple language**  
+- ✏️ Explain the theory of key classification and Linear Regression algorithms in 
 - 📊 Provide hands-on examples with **charts and visualizations**  
 - ⚖️ Compare algorithms in terms of **performance and use cases**  
 - 📈 Explore tools for evaluating **accuracy** and **effectiveness**  
@@ -15,12 +15,11 @@ The idea is to make learning **both theoretical and practical**, so you can conn
 ---
 
 ## 📚 Topics Covered
-- 📝 Introduction to supervised learning  
-- 🔹 Perceptron and simple linear classifiers  
+- 📝 Introduction to supervised learning
+- 🔹 Linear Regression
 - 🔹 Logistic Regression  
 - 🔹 Support Vector Machines (SVM)  
 - 🌳 Decision Trees and Random Forests  
-- 🧠 Simple Neural Networks for classification  
 - 📏 Evaluation metrics: Accuracy, Precision, Recall, F1, ROC, AUC  
 
 ---
