@@ -6,25 +6,25 @@ The idea is to make learning **both theoretical and practical**, so you can conn
 
 ---
 
-## 🎯 Objectives
-- ✏️ Explain the theory of key classification and Linear Regression algorithms in 
-- 📊 Provide hands-on examples with **charts and visualizations**  
-- ⚖️ Compare algorithms in terms of **performance and use cases**  
-- 📈 Explore tools for evaluating **accuracy** and **effectiveness**  
+## Objectives
+-  Explain the theory of key classification and Linear Regression algorithms in 
+-  Provide hands-on examples with **charts and visualizations**  
+-  Compare algorithms in terms of **performance and use cases**  
+-  Explore tools for evaluating **accuracy** and **effectiveness**  
 
 ---
 
-## 📚 Topics Covered
-- 📝 Introduction to supervised learning
+##  Topics Covered
+- 🔹Introduction to supervised learning
 - 🔹 Linear Regression
 - 🔹 Logistic Regression  
 - 🔹 Support Vector Machines (SVM)  
-- 🌳 Decision Trees and Random Forests  
+- 🔹 Ensemble Learning
 - 📏 Evaluation metrics: Accuracy, Precision, Recall, F1, ROC, AUC  
 
 ---
 
-## 💡 Examples
+##  Examples
 Each algorithm will be explained with:
 - A **simple example** using small synthetic or real datasets  
 - **Step-by-step explanations**  
@@ -35,9 +35,9 @@ Each algorithm will be explained with:
 
 Theoretical notes and examples are organized in separate files for each algorithm:
 
-- 📈 [Linear Regression](./Linear%20Regression)  
+- 🔹[Linear Regression](./Linear%20Regression)  
 - 🔹 [Logistic Regression](./Logistic%20Regression)  
-- ✨ [Support Vector Machines (SVM)](./SVM)  
-- 🤝 [Ensemble Learning](./Ensemble%20Learning)  
+- 🔹 [Support Vector Machines (SVM)](./SVM)  
+- 🔹 [Ensemble Learning](./Ensemble%20Learning)  
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
