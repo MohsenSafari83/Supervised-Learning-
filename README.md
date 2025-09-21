@@ -1,7 +1,7 @@
 # 🌐 Supervised Learning
 
 Welcome to this repository!  
-Here we aim to **document the theory of classification algorithms** in machine learning with a focus on **clarity, examples, and visuals**.  
+Here we aim to **document the theory of classification and Linear Regression algorithms** in machine learning with a focus on **clarity, examples, and visuals**.  
 The idea is to make learning **both theoretical and practical**, so you can connect formulas to real-world applications.
 
 ---
