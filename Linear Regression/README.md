@@ -37,17 +37,15 @@ The project includes both **theoretical explanations** and **practical implement
 ---
 # Linear Regression Results
 
-## Multivariate Linear Regression (MLR)
-This plot shows predicted vs actual house values using MLR:
+### Multivariate Linear Regression (MLR)
+The plot below shows predicted vs actual house values using **MLR**:
 
-![MLR Prediction](<img width="689" height="547" alt="mlr" src="https://github.com/user-attachments/assets/4e9a526c-a45f-41ab-9837-9d2c67e87106" />
-)
+![MLR Prediction](images/mlr.png)
 
-## Polynomial Linear Regression (PLR)
-This plot shows predicted vs actual house values using PLR (degree 2):
+### Polynomial Linear Regression (PLR)
+The plot below shows predicted vs actual house values using **PLR** (degree 2):
 
-![PLR Prediction](<img width="678" height="547" alt="plr" src="https://github.com/user-attachments/assets/5f57cde3-5b5a-43b6-bc28-ab0ecee79f55" />
-)
+![PLR Prediction](images/plr.png)
 
 ## How to Run
 1. Clone the repository:
