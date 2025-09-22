@@ -47,9 +47,3 @@ The plot below shows predicted vs actual house values using **PLR** (degree 2):
 
 ![PLR Prediction](images/plr.png)
 
-## How to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/YourUsername/YourRepo.git
-cd YourRepo
-
