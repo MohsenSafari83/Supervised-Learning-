@@ -41,6 +41,6 @@ Theoretical notes and examples are organized in separate files for each algorith
 - 🔹[K-Nearest Neighbors (KNN)](./KNN)   
 - 🔹[Support Vector Machines (SVM)](./SVM)  
 - 🔹[Ensemble Learning](./Ensemble%20Learning)
-- 🔹[Data Preprocessing](./Data%20Preprocessing).
+- 🔹[Data Preprocessing](./Data%20Preprocessing)
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
