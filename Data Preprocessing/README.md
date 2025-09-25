@@ -75,9 +75,32 @@ This repository contains notebooks and explanations about different **data prepr
   - Yeo-Johnson Transformation  
 
 ---
+## 9. Dimensionality Reduction (PCA)  
+- Reduces the number of features while retaining the most important information.  
+- Helps avoid **curse of dimensionality**, reduces overfitting, and improves computation efficiency.  
+- Example: PCA can compress a dataset with 100 features into 10–20 important ones.  
 
-## Getting Started  
+---
 
+## 10. Train-Test Split  
+- Always split your dataset into **training** and **testing** sets.  
+- Training set → used to train the model.  
+- Testing set → used to evaluate performance on unseen data.  
+- Typically, **70/30 or 80/20 splits** are common.  
+- Alternatively, use **cross-validation** for more robust evaluation.  
+
+---
+
+## 11.  Why Use Pipelines in Scikit-learn?  
+When building machine learning models, preprocessing steps like **handling missing values, encoding categorical variables, scaling, and dimensionality reduction** must be done **before** training.  
+
+❌ If you apply preprocessing separately to train and test data, you risk:  
+- Data leakage  
+- Inconsistent transformations  
+
+✅ Pipelines ensure that the **same transformations** are applied to both training and testing data in the correct order.  
+
+---
 Clone the repository:  
 ```bash
 git clone https://github.com/your-username/Preprocessing-data.git
