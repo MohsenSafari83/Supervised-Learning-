@@ -59,30 +59,16 @@ This repository contains notebooks and explanations about different **data prepr
   - Filter methods (SelectKBest)  
   - Wrapper methods (Forward/Backward Selection)  
   - Embedded methods (Lasso, Ridge, Tree-based)  
-- **Dimensionality Reduction**:  
-  - Introduction to PCA (Principal Component Analysis)  
-  - Why and when to reduce dimensions  
-
 ---
 
-### 8. Data Transformation  
-- Making data more normally distributed  
-- Techniques:  
-  - Log Transformation  
-  - Square Root Transformation  
-  - Reciprocal Transformation  
-  - Box-Cox Transformation  
-  - Yeo-Johnson Transformation  
-
----
-## 9. Dimensionality Reduction (PCA)  
+## 8. Dimensionality Reduction (PCA)  
 - Reduces the number of features while retaining the most important information.  
 - Helps avoid **curse of dimensionality**, reduces overfitting, and improves computation efficiency.  
 - Example: PCA can compress a dataset with 100 features into 10–20 important ones.  
 
 ---
 
-## 10. Train-Test Split  
+## 9. Train-Test Split  
 - Always split your dataset into **training** and **testing** sets.  
 - Training set → used to train the model.  
 - Testing set → used to evaluate performance on unseen data.  
@@ -91,7 +77,7 @@ This repository contains notebooks and explanations about different **data prepr
 
 ---
 
-## 11.  Why Use Pipelines in Scikit-learn?  
+## 10.  Why Use Pipelines in Scikit-learn?  
 When building machine learning models, preprocessing steps like **handling missing values, encoding categorical variables, scaling, and dimensionality reduction** must be done **before** training.  
 
 ❌ If you apply preprocessing separately to train and test data, you risk:  
