@@ -7,12 +7,8 @@ The goal is to provide a **quick reference** to commonly used commands and workf
 
 ## What’s Inside?
 The cheat sheet covers three major Python libraries:
-
-### 🔹 NumPy
-- Working with arrays and matrices  
-- Array creation (`zeros`, `ones`, `arange`, `random`)  
-- Array operations (mean, median, std, sum, min, max)  
-- Indexing and slicing  
+### 🔹 NumPy – Data Management
+- Covers the most important and commonly used methods for array manipulation and data preparation
 
 ### 🔹 Matplotlib
 - Basic plotting (line, scatter, bar, histogram)  
