@@ -42,5 +42,6 @@ Theoretical notes and examples are organized in separate files for each algorith
 - 🔹[Support Vector Machines (SVM)](./SVM)  
 - 🔹[Ensemble Learning](./Ensemble%20Learning)
 - 🔹[Data Preprocessing](./Data%20Preprocessing)
+- 🔹[Python Cheat Sheet folder](./Python_Cheat_Sheet)
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
