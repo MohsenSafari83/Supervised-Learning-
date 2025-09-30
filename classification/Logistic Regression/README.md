@@ -46,7 +46,13 @@ $$
 4. Model evaluation
 
 ---
+## Loss Function Visualization
+
 ![Loss Function](images/loss_history.png)
+## Decision Boundary
+![Decision Boundary](images/decision_boundary.png)
+
+
 
 ---
 
