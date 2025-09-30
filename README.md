@@ -43,7 +43,7 @@ Theoretical notes and examples are organized in separate files for each algorith
   
 ## Folder Structure
 
-
+```
 /Supervised-Learning-Repo
 ├── data_preprocessing/
 ├── classification/
