@@ -55,11 +55,8 @@ $$
 
 ## Visualizations
 
-## Loss Function Visualization
-![Loss Function](Supervised-Learning/classification/Logistic_Regression/images/loss_history.png)
-
-## Decision Boundary
-![Decision Boundary](Supervised-Learning/classification/Logistic_Regression/images/decision_boundary.png)
+![Loss History](classification/Logistic\ Regression/images/loss_history.png)
+![Decision Boundary](classification/Logistic\ Regression/images/decision_boundary.png)
 
 
 ---
