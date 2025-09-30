@@ -42,7 +42,7 @@ $$
 
 ---
 
-## 🔍 Implementation Outline
+## Implementation Outline
 
 1. Data loading and preprocessing  
 2. Logistic Regression training (binary and multiclass)  
