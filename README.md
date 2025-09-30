@@ -18,7 +18,7 @@ The idea is to make learning **both theoretical and practical**, so you can conn
 - 🔹 Introduction to supervised learning
 - 🔹 Linear Regression
 - 🔹 Logistic Regression  
-- 🔹 Support Vector Machines 9(SVM)
+- 🔹 Support Vector Machines (SVM)
 - 🔹 K-Nearest Neighbors (KNN)
 - 🔹 Ensemble Learning
 - 🔹 Evaluation metrics: Accuracy, Precision, Recall, F1, ROC, AUC  
