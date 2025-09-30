@@ -55,15 +55,12 @@ $$
 
 ## Visualizations
 
-### Loss History
-Training loss decreases over iterations, showing convergence of Gradient Descent.
+## Loss Function Visualization
+![Loss Function](./classification/Logistic_Regression/images/loss_history.png)
 
-![loss_history](images/loss_history.png)
+## Decision Boundary
+![Decision Boundary](./classification/Logistic_Regression/images/decision_boundary.png)
 
-### Decision Boundary
-Clear separation of classes in 2D PCA space.
-
-![decision_boundary](images/decision_boundary.png)
 
 ---
 
