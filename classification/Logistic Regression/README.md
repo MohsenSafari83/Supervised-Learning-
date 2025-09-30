@@ -31,6 +31,7 @@ $$
 $$
 L = -\frac{1}{N} \sum_{i=1}^N \Big[ y_i \log(p_i) + (1-y_i)\log(1-p_i) \Big]
 $$
+
 ---
 
 ##  Dataset & Preprocessing
