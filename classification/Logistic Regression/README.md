@@ -5,10 +5,11 @@ It connects mathematical foundations to real-world applications with visualizati
 
 ---
 
-## Overview
+## Loss Function Visualization
+![Loss Function](Supervised-Learning/classification/Logistic%20Regression/images/loss_history.png)
 
-Logistic Regression is a **supervised learning algorithm** used for classification tasks.  
-It predicts probabilities using the **sigmoid function** and maps them into binary or multiclass outcomes.
+## Decision Boundary
+![Decision Boundary](Supervised-Learning/classification/Logistic%20Regression/images/decision_boundary.png)
 
 ---
 
