@@ -46,6 +46,8 @@ $$
 4. Model evaluation
 
 ---
+![Loss Function](classification/Logistic%20Regression/images/loss_history.png)
+![Decision Boundary](classification/Logistic%20Regression/images/decision_boundary.png)
 
 ---
 
