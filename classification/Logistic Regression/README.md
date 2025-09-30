@@ -48,10 +48,10 @@ $$
 ---
 
 ## Loss Function Visualization
-![Loss Function](Supervised-Learning/main/classification/Logistic%20Regression/images/loss_history.png)
-
+![Loss Function](Supervised-Learning-/tree/main/classification/Logistic%20Regression/images/loss_history.png)
+https://github.com/MohsenSafari83/Supervised-Learning-/tree/main/classification/Logistic%20Regression/images
 ## Decision Boundary
-![Decision Boundary](Supervised-Learning/main/classification/Logistic%20Regression/images/decision_boundary.png)
+![Decision Boundary](Supervised-Learning-/tree/main/classification/Logistic%20Regression/images/decision_boundary.png)
 
 ---
 
