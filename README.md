@@ -32,16 +32,35 @@ Each algorithm will be explained with:
 - **Visuals and charts** for better intuition  
 
 ---
-## 📖 Documentation
+## Documentation
 
 Theoretical notes and examples are organized in separate files for each algorithm:
 
-- 🔹[Linear Regression](./Linear%20Regression)  
-- 🔹[Logistic Regression](./Logistic%20Regression)
-- 🔹[K-Nearest Neighbors (KNN)](./KNN)   
-- 🔹[Support Vector Machines (SVM)](./SVM)  
-- 🔹[Ensemble Learning](./Ensemble%20Learning)
+- 🔹[Linear Regression](./Linear%20Regression)
+- 🔹[Classification](./classification)
 - 🔹[Data Preprocessing](./Data%20Preprocessing)
 - 🔹[Python Cheat Sheet folder](./Python_Cheat_Sheet)
+## Folder Structure
+/Supervised-Learning-Repo
+│
+├── /data_preprocessing
+|
+├── /classification
+│   ├── logistic_regression.md
+│   ├── svm.md
+│   ├── knn.md
+│   └── ensemble_classifiers.md
+│
+├── /regression
+│   ├── linear_regression.md
+│   └── other_regression_algorithms.md
+│
+├── /cheat_sheets
+│   ├── python_basics.md
+│   ├── numpy_pandas.md
+│   └── matplotlib_seaborn.md
+│
+│
+└── README.md
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
