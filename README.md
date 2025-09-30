@@ -41,26 +41,22 @@ Theoretical notes and examples are organized in separate files for each algorith
 - 🔹[Data Preprocessing](./Data%20Preprocessing)
 - 🔹[Python Cheat Sheet folder](./Python_Cheat_Sheet)
 ## Folder Structure
-/Supervised-Learning-Repo
-│
-├── /data_preprocessing
-|
-├── /classification
+
+├── data_preprocessing/
+├── classification/
 │   ├── logistic_regression.md
 │   ├── svm.md
 │   ├── knn.md
 │   └── ensemble_classifiers.md
-│
-├── /regression
+├── regression/
 │   ├── linear_regression.md
 │   └── other_regression_algorithms.md
-│
-├── /cheat_sheets
+├── cheat_sheets/
 │   ├── python_basics.md
 │   ├── numpy_pandas.md
 │   └── matplotlib_seaborn.md
-│
-│
 └── README.md
+
+---
 
 ✨ The goal is to make theory **easy to understand** and connect it directly to **practice**.
