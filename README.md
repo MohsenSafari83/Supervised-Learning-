@@ -59,7 +59,7 @@ Theoretical notes and examples are organized in separate files for each algorith
 │   ├── numpy_pandas.md
 │   └── matplotlib_seaborn.md
 └── README.md
-
+```
 
 ---
 
