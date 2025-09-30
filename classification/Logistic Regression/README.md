@@ -46,12 +46,8 @@ $$
 4. Model evaluation
 
 ---
-
-## Loss Function Visualization
-![Loss Function](Supervised-Learning-/classification/Logistic%20Regression/images/loss_history.png)
-
-## Decision Boundary
-![Decision Boundary](Supervised-Learning-/classification/Logistic%20Regression/images/decision_boundary.png)
+![Loss Function](classification/Logistic%20Regression/images/loss_history.png)
+![Decision Boundary](classification/Logistic%20Regression/images/decision_boundary.png)
 
 ---
 
