@@ -86,9 +86,3 @@ When building machine learning models, preprocessing steps like **handling missi
 
 ✅ Pipelines ensure that the **same transformations** are applied to both training and testing data in the correct order.  
 
----
-Clone the repository:  
-```bash
-git clone https://github.com/your-username/Preprocessing-data.git
-cd Preprocessing-data
-
