@@ -25,17 +25,26 @@ Each record represents a **census block group** in California with the following
 
 ---
 
-## What You Will Learn
-1. **Linear Regression Theory**
-   - How the model fits a line to predict target values.
-   - Concepts of **training error**, **test error**, and **RMSE**.
-2. **Polynomial Regression (Optional Extension)**
-   - How to extend linear regression to higher-degree features.
-3. **Regularization Techniques**
-   - Ridge Regression (L2) and Lasso Regression (L1) for reducing overfitting.
-4. **Visualization**
-   - Plotting predicted vs actual values.
-   - RMSE curves for different polynomial degrees and regularization parameters.
+
+## Methodology & Steps
+### 1. Data Loading & Cleaning
+- Load the California Housing dataset (via `sklearn.datasets.fetch_california_housing`).  
+- Check for missing values and handle appropriately.  
+
+### 2. Data Preprocessing
+- **Split dataset** into training and testing sets.  
+- **Feature scaling** using `StandardScaler` or `MinMaxScaler` to normalize input features, improving regression performance.  
+
+### 3. Model Implementation
+- Train a **Linear Regression model** (`sklearn.linear_model.LinearRegression`) on the training set.  
+- Extract model coefficients (`coef_`) to analyze the impact of each feature.  
+
+### 4. Model Evaluation
+- Make predictions on the test set.  
+- Calculate performance metrics:  
+  - **MAE** (Mean Absolute Error)  
+  - **MSE / RMSE** (Mean Squared Error / Root Mean Squared Error)  
+  - **R² Score** (explained variance of the target variable)  
 
 ---
 # Linear Regression Results
