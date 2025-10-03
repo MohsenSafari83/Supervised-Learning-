@@ -34,6 +34,25 @@ The main goal is to go beyond **Accuracy** and understand the complexities of mo
 * **Confusion Matrix:** a visual and tabular tool for multi-class evaluation.  
 * **Averaging Methods:** differences between **Micro-Averaging** and **Macro-Averaging**, and when to use each.  
 * **AUC-ROC:** understanding the Receiver Operating Characteristic (ROC) curve and the **Area Under the Curve (AUC)** as a measure of a model’s discriminative ability.  
+---
+This table summarizes the key performance metrics of the classification model, derived from the classification report, providing a quick overview of its performance across both classes.
 
+| **Metric**    | **Malignant (63 Instances)** | **Benign (108 Instances)** | **Macro Avg** | **Weighted Avg** | **Support (Total)** |
+|---------------|-------------------------------|-----------------------------|----------------|------------------|----------------------|
+| **Precision** | 0.97                          | 0.98                        | 0.97           | 0.98             | 171                  |
+| **Recall**    | 0.97                          | 0.98                        | 0.97           | 0.98             | 171                  |
+| **F1-Score**  | 0.97                          | 0.98                        | 0.97           | 0.98             | 171                  |
+| **Accuracy**  |                               |                             |                | **0.98**         | 171                  |
+
+---
+
+## Key Observations
+
+- **High Performance:** The model demonstrates strong performance across all metrics (Precision, Recall, F1-Score) for both malignant and benign classes.  
+- **Balance:** The scores for both classes are very close, showing that the model performs almost equally well on the minority class (**malignant: 63 instances**) and the majority class (**benign: 108 instances**).  
+- **Accuracy:** The overall accuracy is **0.98 (98%)**.  
+- **Weighted Average:** The weighted average (**0.98**) is slightly higher than the macro average (**0.97**) because it accounts for the larger number of instances in the *benign* class.  
+
+---
 
 
