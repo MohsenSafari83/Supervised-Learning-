@@ -7,18 +7,21 @@ The project includes both **theoretical explanations** and **practical implement
 
 ---
 
-## Dataset
-- **California Housing Dataset** from `sklearn.datasets`.
-- Features include:
-  - `MedInc`: Median income in block group
-  - `HouseAge`: Median house age
-  - `AveRooms`: Average rooms per household
-  - `AveBedrms`: Average bedrooms per household
-  - `Population`: Block group population
-  - `AveOccup`: Average household occupancy
-  - `Latitude` & `Longitude`: Geographic location
-- Target:
-  - `MedHouseVal`: Median house value for the block
+## Dataset 
+Each record represents a **census block group** in California with the following features:
+
+| Feature     | Description |
+|-------------|-------------|
+| **MedInc**  | Median income of block residents (in tens of thousands of dollars). |
+| **HouseAge**| Median age of houses in the block. |
+| **AveRooms**| Average number of rooms per house. |
+| **AveBedrms** | Average number of bedrooms per house. |
+| **Population** | Block population. |
+| **AveOccup** | Average household size (occupants per house). |
+| **Latitude** | Block latitude. |
+| **Longitude** | Block longitude. |
+| **MedHouseVal** | **Target**: Median house value (in hundreds of thousands of dollars). |
+
 
 ---
 
