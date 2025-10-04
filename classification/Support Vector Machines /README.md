@@ -45,10 +45,12 @@ The confusion matrix confirms that **all 30 test samples were classified correct
 ## Visualizations
 The notebook includes several key plots to illustrate the data and model behavior:
 
-- **Feature Pair Plot (EDA):** Shows feature interactions. Clear separability of **Setosa**, while Versicolor and Virginica require a more complex boundary.  
-- **Correlation Heatmap:** Reveals high correlation between **Petal Length** and **Petal Width**, suggesting feature redundancy.  
+- **Feature Pair Plot (EDA):** Shows feature interactions. Clear separability of **Setosa**, while Versicolor and Virginica require a more complex boundary.
+  [Feature Pair Plot](images/Pair_Plot.png)
+- **Correlation Heatmap:** Reveals high correlation between **Petal Length** and **Petal Width**, suggesting feature redundancy.
+ [ Correlation Heatmap](images/Feature_Correlation_Heatmap.png)
 - **Decision Boundary (PCA):** After dimensionality reduction, the SVM (with RBF Kernel) perfectly separates the three classes in 2D space.  
-
+[Decision Boundary](images/SVM_Decision_Boundary.png)
 ---
 
 ## References
