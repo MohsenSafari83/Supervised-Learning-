@@ -94,9 +94,11 @@ The two primary ensemble categories are **Parallel (Bagging)** and **Sequential 
   3. Aggregate predictions (vote or average).
 
 **Final Prediction:**
+
 $$
 \hat{y} = \frac{1}{M} \sum_{m=1}^{M} h_m(x)
 $$
+
 Where \( h_m(x) \) is the prediction from model \( m \), and \( M \) is the total number of models.
 
 ---
