@@ -135,8 +135,8 @@ Obj = \sum_{i=1}^{n} L(y_i, \hat{y}_i^{(t)}) + \Omega(f_t)
 $$
 
 Where:
-- \( L \) = loss function (e.g., MSE, Log Loss)
-- \( \Omega(f_t) \) = regularization term to penalize complexity
+- $$ L $$ = loss function (e.g., MSE, Log Loss)
+-$$ \Omega(f_t) $$= regularization term to penalize complexity
 
 ---
 
@@ -148,10 +148,12 @@ An optimized, scalable version of Gradient Boosting that includes:
 - **Second-order derivatives (Hessian)** for faster convergence  
 
 **Regularized Objective:**
+
 $$
 Obj = \sum_{i} l(y_i, \hat{y}_i) + \sum_{k} \left( \frac{1}{2} \lambda ||w_k||^2 + \gamma T \right)
 $$
-Where \( \lambda \) and \( \gamma \) control tree complexity.
+
+Where $$ \lambda \$$ and $$ \gamma $$ control tree complexity.
 
 ---
 
