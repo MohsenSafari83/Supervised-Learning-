@@ -17,7 +17,7 @@ This project is divided into two main parts:
    - Conceptual differences between bagging and boosting  
    - Mathematical intuition and workflow illustrations  
 
-2. **[⚙️ Project (Practical Implementation)](https://github.com/MohsenSafari83/Supervised-Learning-/tree/main/classification/Emsemble%20Classifier/project)**  
+2. **[Project (Practical Implementation)](https://github.com/MohsenSafari83/Supervised-Learning-/tree/main/classification/Emsemble%20Classifier/project)**  
    A hands-on application of ensemble classifiers using the **Bank Marketing Dataset** to predict whether clients will subscribe to a term deposit.  
    Includes:
    - Data preprocessing (encoding, outlier handling, feature scaling)  
