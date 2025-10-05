@@ -1,4 +1,4 @@
-+# Ensemble Learning: Machine Learning Ensemble Methods
+# Ensemble Learning: Machine Learning Ensemble Methods
 
 # Algorithms & Core Concepts Covered
 
