@@ -121,22 +121,6 @@ Where \( h_m(x) \) is the prediction from model \( m \), and \( M \) is the tota
 Boosting builds models sequentially, where each new model focuses on the mistakes of the previous one.  
 The key concept is **weighted training**, assigning more importance to misclassified samples.
 
----
-
-### AdaBoost (Adaptive Boosting)
-- Each weak learner is assigned a weight based on its accuracy.
-- Misclassified samples receive **higher weights** in the next iteration.
-
-**Model Weight (αₘ):**
-$$
-\alpha_m = \frac{1}{2} \ln \left( \frac{1 - \varepsilon_m}{\varepsilon_m} \right)
-$$
-Where \( \varepsilon_m \) is the weighted error rate of model \( m \).
-
-**Final Prediction:**
-$$
-H(x) = \text{sign} \left( \sum_{m=1}^{M} \alpha_m h_m(x) \right)
-$$
 
 ---
 
