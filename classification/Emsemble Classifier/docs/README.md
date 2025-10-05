@@ -24,9 +24,9 @@ Each **internal node** represents a feature, each **branch** represents a decisi
 ###  Entropy — Measuring Impurity
 Entropy quantifies the amount of uncertainty or impurity in a dataset.
 
-\[
+$$
 Entropy(S) = -\sum_{i=1}^{c} p_i \log_2(p_i)
-\]
+$$
 
 Where:
 - \( S \) = current dataset
@@ -40,9 +40,9 @@ If all samples belong to a single class, entropy = 0 (perfectly pure).
 ### Information Gain — Measuring the Effectiveness of a Split
 Information Gain (IG) determines how much a feature decreases entropy after splitting.
 
-\[
+$$
 IG(S, A) = Entropy(S) - \sum_{v \in Values(A)} \frac{|S_v|}{|S|} \times Entropy(S_v)
-\]
+$$
 
 Where:
 - \( A \) = feature used for the split  
@@ -55,9 +55,9 @@ A higher **Information Gain** means the feature is more useful for splitting.
 ### Gini Impurity — An Alternative to Entropy
 Gini measures the probability of misclassifying a randomly chosen element.
 
-\[
+$$
 Gini(S) = 1 - \sum_{i=1}^{c} p_i^2
-\]
+$$
 
 Lower Gini values indicate purer splits.
 
@@ -94,9 +94,9 @@ The two primary ensemble categories are **Parallel (Bagging)** and **Sequential 
   3. Aggregate predictions (vote or average).
 
 **Final Prediction:**
-\[
+$$
 \hat{y} = \frac{1}{M} \sum_{m=1}^{M} h_m(x)
-\]
+$$
 Where \( h_m(x) \) is the prediction from model \( m \), and \( M \) is the total number of models.
 
 ---
@@ -126,15 +126,15 @@ The key concept is **weighted training**, assigning more importance to misclassi
 - Misclassified samples receive **higher weights** in the next iteration.
 
 **Model Weight (αₘ):**
-\[
+$$
 \alpha_m = \frac{1}{2} \ln \left( \frac{1 - \varepsilon_m}{\varepsilon_m} \right)
-\]
+$$
 Where \( \varepsilon_m \) is the weighted error rate of model \( m \).
 
 **Final Prediction:**
-\[
+$$
 H(x) = \text{sign} \left( \sum_{m=1}^{M} \alpha_m h_m(x) \right)
-\]
+$$
 
 ---
 
@@ -143,9 +143,9 @@ H(x) = \text{sign} \left( \sum_{m=1}^{M} \alpha_m h_m(x) \right)
 - The algorithm minimizes a **differentiable loss function** using **gradient descent**.
 
 **Objective Function:**
-\[
+$$
 Obj = \sum_{i=1}^{n} L(y_i, \hat{y}_i^{(t)}) + \Omega(f_t)
-\]
+$$
 Where:
 - \( L \) = loss function (e.g., MSE, Log Loss)
 - \( \Omega(f_t) \) = regularization term to penalize complexity
@@ -160,9 +160,9 @@ An optimized, scalable version of Gradient Boosting that includes:
 - **Second-order derivatives (Hessian)** for faster convergence  
 
 **Regularized Objective:**
-\[
+$$
 Obj = \sum_{i} l(y_i, \hat{y}_i) + \sum_{k} \left( \frac{1}{2} \lambda ||w_k||^2 + \gamma T \right)
-\]
+$$
 Where \( \lambda \) and \( \gamma \) control tree complexity.
 
 ---
