@@ -147,26 +147,19 @@ An optimized, scalable version of Gradient Boosting that includes:
 - **Handling missing values** automatically  
 - **Second-order derivatives (Hessian)** for faster convergence  
 
-**Objective Function:**
-
-Obj = Σ [ l(yᵢ, ŷᵢ) ] + Σ [ (1/2) * λ * ||wₖ||² + γ * T ]
-
-Where:
-- **λ (lambda)** = regularization parameter to penalize large weights  
-- **γ (gamma)** = parameter that controls tree complexity (number of leaves)
-
 ---
 
 ## Ensemble Algorithm Overview
 
-| Algorithm | Type | Base Learner | Focus | Regularization | Example Library |
-|------------|------|---------------|--------|----------------|----------------|
-| **Decision Tree** | Single Model | Tree | Interpretability | – | scikit-learn |
-| **Bagging** | Parallel | Any | Variance Reduction | – | scikit-learn |
-| **Random Forest** | Parallel | Decision Trees | Variance Reduction | Implicit via Randomization | scikit-learn |
-| **AdaBoost** | Sequential | Weak Trees (Stumps) | Bias Reduction | Indirect | scikit-learn |
-| **Gradient Boosting** | Sequential | Trees | Bias Reduction | Optional | scikit-learn |
-| **XGBoost** | Sequential | Trees | Bias Reduction + Regularization | Explicit (L1, L2) | xgboost |
+| Algorithm | Type | Base Learner | Focus |
+|------------|------|---------------|--------|
+| **Decision Tree** | Single Model | Tree | Interpretability |
+| **Bagging** | Parallel | Any | Variance Reduction |
+| **Random Forest** | Parallel | Decision Trees | Variance Reduction |
+| **AdaBoost** | Sequential | Weak Trees (Stumps) | Bias Reduction |
+| **Gradient Boosting** | Sequential | Trees | Bias Reduction |
+| **XGBoost** | Sequential | Trees | Bias Reduction + Regularization |
+
 
 ---
 ##  References
