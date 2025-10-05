@@ -1,4 +1,4 @@
-# Ensemble Learning: Machine Learning Ensemble Methods
++# Ensemble Learning: Machine Learning Ensemble Methods
 
 # Algorithms & Core Concepts Covered
 
@@ -128,10 +128,12 @@ The key concept is **weighted training**, assigning more importance to misclassi
 - Instead of weighting misclassified samples, it fits new learners on the **residual errors** (negative gradients of the loss function).
 - The algorithm minimizes a **differentiable loss function** using **gradient descent**.
 
-**Objective Function:**
+**Objective Function:** 
+
 $$
 Obj = \sum_{i=1}^{n} L(y_i, \hat{y}_i^{(t)}) + \Omega(f_t)
 $$
+
 Where:
 - \( L \) = loss function (e.g., MSE, Log Loss)
 - \( \Omega(f_t) \) = regularization term to penalize complexity
