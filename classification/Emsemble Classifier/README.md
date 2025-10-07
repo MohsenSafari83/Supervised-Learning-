@@ -38,13 +38,6 @@ Ensemble-Classifier-Project/
 │   ├── bank_marketing_project.ipynb   # Main notebook (data preprocessing, model training, evaluation)
 │   └── data/                          # Folder for dataset files (optional)
 │       └── bank.csv
-│
-├── assets/                            # Images, plots, or diagrams used in documentation (optional)
-│   └── model_comparison.png
-│
-├── requirements.txt                   # List of required Python libraries
-├── README.md                          # Project overview and instructions
-├── .gitignore                         # Files and folders to ignore in Git
-└── LICENSE                            # License file ( MIT)
+└── 
 ```
 
