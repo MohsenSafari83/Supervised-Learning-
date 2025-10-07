@@ -5,21 +5,6 @@ This project focuses on building a **Machine Learning Classification Model** to 
 The main goal is to help the bank **optimize its marketing strategy** by identifying the most influential customer and campaign attributes — minimizing costs and maximizing campaign success rate.
 
 ---
-
-##  Key Objectives
-
-- **Data Preparation:**  
-  Clean, handle outliers, and preprocess the raw data, including extensive *One-Hot Encoding* and *Label Encoding* of categorical features (resulting in 48 processed columns).
-
-- **Exploratory Data Analysis (EDA):**  
-  Explore relationships between key features (e.g., `balance`, `campaign`, `previous`, `duration`) and the target variable (`deposit`).
-
-- **Model Building:**  
-  Implement and train a **Random Forest Classifier** to predict customer subscription behavior.
-
-- **Feature Importance Analysis:**  
-  Identify and interpret the most critical features influencing a positive deposit decision (notably `duration`, `age`, a
----
 ## Bank Marketing Campaign Recommendations
 
 Based on the analysis, the bank can optimize future marketing campaigns:
