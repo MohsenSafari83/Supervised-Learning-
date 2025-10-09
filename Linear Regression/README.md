@@ -1,3 +1,4 @@
+![Linear Regression](images/liner.jpeg)
 # Linear Regression on California Housing Dataset
 
 ## Overview
