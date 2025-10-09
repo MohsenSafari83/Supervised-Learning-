@@ -1,3 +1,4 @@
+![knn](images/knn2.png)
 ## Project Description
 
 This project implements a robust and optimized k-Nearest Neighbors (kNN) classification model to accurately predict whether a tumor is **Malignant (Cancerous)** or **Benign (Non-Cancerous)**. The methodology focuses on overcoming the key challenge inherent to distance-based algorithms: **feature scale disparity** due to unscaled data.
@@ -46,4 +47,7 @@ The final model was evaluated on the test set, yielding the following results:
 * **High Recall (Benign):** The model is excellent at correctly identifying non-cancerous cases (**98.13%**).
 * **Area for Improvement (Malignant Recall):** The Recall for the Malignant class is **90.62%**. This indicates that approximately **9.38%** of actual cancer cases (False Negatives) were missed by the model—the primary area for future model improvement.
 
+---
+## finding optimal value of k for knn
+![find optimal value of k](images/knn.png)
 
