@@ -1,3 +1,4 @@
+![svm](images/svm.webp)
 # 🌸 Support Vector Machine (SVM) on Iris Dataset
 
 This project serves as a foundational guide to implementing and analyzing the **Support Vector Machine (SVM)** algorithm. It focuses on the crucial steps of **Exploratory Data Analysis (EDA)**, **Feature Scaling**, and **Hyperparameter Analysis** using the classic and highly separable **Iris dataset**.
