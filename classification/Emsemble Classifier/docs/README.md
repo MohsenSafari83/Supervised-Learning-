@@ -1,3 +1,4 @@
+![tree](images/tree.png)
 # Ensemble Learning: Machine Learning Ensemble Methods
 
 # Algorithms & Core Concepts Covered
