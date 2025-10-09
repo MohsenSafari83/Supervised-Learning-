@@ -1,4 +1,4 @@
-![Logistic Regression](images/LogisticRegression.jpg)
+![Logistic Regression](images/LogisticRegression.jpeg)
 # Logistic Regression
 
 This repository provides a **theoretical and practical walkthrough** of Logistic Regression.  
