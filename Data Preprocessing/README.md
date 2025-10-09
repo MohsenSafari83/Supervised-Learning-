@@ -1,3 +1,4 @@
+![Data Preprocessing ](images/data.jpg)
 #  Data Preprocessing  
 
 Data preprocessing is an essential step in any Machine Learning workflow.  
