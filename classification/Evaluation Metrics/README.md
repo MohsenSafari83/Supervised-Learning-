@@ -1,4 +1,4 @@
-[Evaluation Metrics](image/metrics.png)
+![Evaluation Metrics](image/metrics.jpg)
 
 # Comprehensive Guide to Performance Metrics
 
