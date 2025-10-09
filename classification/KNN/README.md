@@ -1,4 +1,4 @@
-![knn](images/knn2.png)
+![knn](images/knn2.jpg)
 ## Project Description
 
 This project implements a robust and optimized k-Nearest Neighbors (kNN) classification model to accurately predict whether a tumor is **Malignant (Cancerous)** or **Benign (Non-Cancerous)**. The methodology focuses on overcoming the key challenge inherent to distance-based algorithms: **feature scale disparity** due to unscaled data.
