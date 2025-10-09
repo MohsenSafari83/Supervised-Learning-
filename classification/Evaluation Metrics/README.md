@@ -1,4 +1,5 @@
-![Evaluation Metrics](image/metrics.png)
+[Evaluation Metrics](image/metrics.png)
+
 # Comprehensive Guide to Performance Metrics
 
 This module is a complete theoretical and practical guide for understanding and implementing key evaluation metrics for **classification models**.  
